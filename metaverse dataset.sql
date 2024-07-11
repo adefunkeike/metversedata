@@ -110,6 +110,8 @@ set purchase_pattern = REPLACE(purchase_pattern,'high_vlue','high value')
 
 
 
+
+
 /*****Write a SQL query to identify potentially fraudulent transactions by comparing the average
 transaction amount of each sending address to its individual transactions. 
 Highlight those transactions where the amount exceeds the average by more than two standard deviations*/
@@ -142,7 +144,7 @@ What key visualizations and data transformations would you include, and how woul
 
 select *
 from [dbo].[metaverse_transactions$]
-where anomaly ='high risk'
+where anomaly ='low risk'
 
 
 update [dbo].[metaverse_transactions$]
