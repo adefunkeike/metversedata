@@ -63,7 +63,9 @@ select distinct fraud_table.sending_address, amount_difference,fruad_detection, 
 
 ### Results/Findings
 [metversedata.pdf](https://github.com/user-attachments/files/18000694/metversedata.pdf)
-![image](https://github.com/user-attachments/assets/5c14525b-0986-4fa7-9ab5-1cb945a35b27)
+
+![metavarse pic](https://github.com/user-attachments/assets/1f949371-72a6-48a3-b049-b67d121a34bc)
+
 
 
 
