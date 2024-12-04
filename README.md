@@ -1,14 +1,14 @@
-# metversedata
+# METAVERSE TRANSACTION ANALYSIS 
 ## Project Overview 
 
  This data analysis project aims to provide insights, offering an overview of transactions in the Metaverse, covering purchases, sales, scams, and transfers. The analysis highlights key activity periods, average transaction values, and patterns of fraudulent activities, providing insights into transaction flows and potential risks. 
  ## Data Source
 
-This dataset was gotten from github account as csv file which was downloaded to explore EDA on
+This dataset was gotten from github account as csv file which was downloaded to research transaction activity on the metaverse
 
 ## Tools
 
-- WPS Spreedsheet - This was used to make quick correction and make a first check of dataset
+
 - Microsoft SQL SEVER- This was used to clean and analysis the dataset to extract insight to answer insightful business question
 - Power Bi - This was used for visualization of insight and to expansaite
 - Power Query - To clean and validate, checking for data quality 
@@ -33,18 +33,6 @@ This dataset was gotten from github account as csv file which was downloaded to 
      
 ## Data Analysis
 Include some interesting code/features worked with
-```sql
-select *
-from table 1;select 'first_name'columnn  , count (*)count
-  from[dbo].[hr_info]
-  where first_name IS null
-  group by first_name
-  union
-  select 'id'columnn  , count (*)count
-  from[dbo].[hr_info]
-  where id IS null
-  group by id;
-```
 
 ```sql
 /*****Write a SQL query to identify potentially fraudulent transactions by comparing the average
@@ -75,7 +63,6 @@ select distinct fraud_table.sending_address, amount_difference,fruad_detection, 
 
 ### Results/Findings
 [metversedata.pdf](https://github.com/user-attachments/files/18000694/metversedata.pdf)
-
 ![image](https://github.com/user-attachments/assets/5c14525b-0986-4fa7-9ab5-1cb945a35b27)
 
 
